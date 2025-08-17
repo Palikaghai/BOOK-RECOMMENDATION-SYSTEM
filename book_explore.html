@@ -165,17 +165,6 @@
                     
                     if (data && data.docs && data.docs.length > 0) {
                         const books = data.docs.map((book, index) => ({
-                            id: book.key || `${searchType}-${index}`,
-                            title: book.title || 'Untitled',
-                            author: (book.author_name && book.author_name[0]) || (searchType === 'author' ? query : 'Unknown Author'),
-                            year: book.first_publish_year || 'N/A',
-                            isbn: (book.isbn && book.isbn[0]) || '',
-                            coverId: book.cover_i || null,
-                            subjects: (book.subject && book.subject.slice(0, 3)) || [],
-                            pages: book.number_of_pages_median || 0,
-                            publisher: (book.publisher && book.publisher[0]) || 'Unknown',
-                            key: book.key,
-                            rating: (3 + Math.random() * 2).toFixed(1),
                             popularity: Math.floor(60 + Math.random() * 40),
                             searchType: searchType
                         }));
@@ -194,9 +183,9 @@
                     setApiStatus('error');
                     
                     if (error.message.includes('Failed to fetch')) {
-                        alert('Network error: Please check your internet connection and try again.');
-                    } else if (error.message.includes('429')) {
-                        alert('Too many requests. Please wait a moment and try again.');
+                        alert('Try again.');
+                    } else if (error.message.includes('430')) {
+                        alert('Too many requests. Please wait a moment');
                     } else if (error.message.includes('No books found')) {
                         alert('No books found for your search. Try different keywords.');
                     } else {
@@ -235,7 +224,7 @@
                 }, 1000);
             }, []);
 
-            // Generate mock books as fallback
+            
             const generateMockBooks = (query, searchType) => {
                 const mockTitles = [
                     'The Great Adventure', 'Mystery of the Night', 'Beyond the Horizon', 
@@ -878,5 +867,6 @@
 </body>
 
 </html> 
+
 
 
