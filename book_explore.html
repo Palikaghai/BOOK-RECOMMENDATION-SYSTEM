@@ -137,17 +137,14 @@
 
             const genres = ['all', 'fantasy', 'science fiction', 'romance', 'thriller', 'mystery', 'biography', 'history', 'poetry', 'drama'];
 
-            // Enhanced Open Library API integration
+           
             const fetchFromOpenLibrary = async (query, searchType = 'book') => {
-                console.log('Starting search:', query, searchType);
-                setLoading(true);
-                setApiStatus('loading');
+                
                 setSearchResults([]);
                 
                 try {
                     const url = searchType === 'book' 
-                        ? `https://openlibrary.org/search.json?q=${encodeURIComponent(query)}&limit=20`
-                        : `https://openlibrary.org/search.json?author=${encodeURIComponent(query)}&limit=20`;
+                        ? `
                     
                     console.log('Fetching from:', url);
                     
@@ -881,4 +878,5 @@
 </body>
 
 </html> 
+
 
