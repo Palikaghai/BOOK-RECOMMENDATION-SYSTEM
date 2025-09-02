@@ -1,20 +1,5 @@
 
-      
-        
-       
-
-    <script type="text/babel">
-        const { useState, useEffect } = React;
-
-        const BookSearchInterface = () => {
-            const [darkMode, setDarkMode] = useState(false);
-            const [searchQuery, setSearchQuery] = useState('Harry Potter');
-            const [selectedGenre, setSelectedGenre] = useState('all');
-            const [searchResults, setSearchResults] = useState([]);
-            const [selectedBook, setSelectedBook] = useState(null);
-            const [searchMode, setSearchMode] = useState('enhanced');
-            const [uploadedFile, setUploadedFile] = useState(null);
-            const [loading, setLoading] = useState(false);
+  
             const [apiBooks, setApiBooks] = useState([]);
             const [searchType, setSearchType] = useState('book');
             const [apiStatus, setApiStatus] = useState('ready');
@@ -787,6 +772,7 @@
 </body>
 
 </html> 
+
 
 
 
