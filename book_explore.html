@@ -1,12 +1,4 @@
 
-                    
-                    if (!response.ok) {
-                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-                    }
-                    
-                    const data = await response.json();
-                    console.log('API Response:', data);
-                    
                     if (data && data.docs && data.docs.length > 0) {
                         const books = data.docs.map((book, index) => ({
                             popularity: Math.floor(60 + Math.random() * 40),
@@ -709,6 +701,7 @@
 </body>
 
 </html> 
+
 
 
 
