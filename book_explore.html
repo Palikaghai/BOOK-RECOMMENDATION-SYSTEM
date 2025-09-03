@@ -1,15 +1,4 @@
-                  
-                } catch (error) {
-                    console.error('Search error:', error);
-                    setSearchResults([]);
-                    setApiStatus('error');
-                    
-                    if (error.message.includes('Failed to fetch')) {
-                        alert('Try again.');
-                    } else if (error.message.includes('430')) {
-                        alert('Too many requests. Please wait a moment');
-                    } else if (error.message.includes('No books found')) {
-                        alert('No books found for your search. Try different keywords.');
+  search. Try different keywords.');
                     } else {
                         alert(`Search failed: ${error.message}. Please try again.`);
                     }
@@ -687,6 +676,7 @@
 </body>
 
 </html> 
+
 
 
 
