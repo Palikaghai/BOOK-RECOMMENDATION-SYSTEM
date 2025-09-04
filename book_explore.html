@@ -1,9 +1,7 @@
  
              
                 
-                try {
-                    await fetchFromOpenLibrary(query, searchType);
-                } catch (error) {
+           cattch (error) {
                     console.log('API failed, using mock data:', error);
                     const mockBooks = generateMockBooks(query, searchType);
                     setSearchResults(mockBooks);
@@ -661,6 +659,7 @@
 </body>
 
 </html> 
+
 
 
 
