@@ -423,15 +423,7 @@
                                 {selectedBook && (
                                     <div className={`glassmorphism rounded-3xl shadow-2xl p-8`}>
                                         <div className="flex flex-col lg:flex-row space-y-6 lg:space-y-0 lg:space-x-8">
-                                            {selectedBook.coverId && (
-                                                <div className="flex-shrink-0">
-                                                    <img
-                                                        src={getCoverUrl(selectedBook.coverId)}
-                                                        alt={selectedBook.title}
-                                                        className="w-48 h-64 object-cover rounded-2xl shadow-2xl mx-auto lg:mx-0"
-                                                    />
-                                                </div>
-                                            )}
+                                           
                                             <div className="flex-1">
                                                 <h2 className="text-4xl font-bold mb-2 bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                                                     {selectedBook.title}
@@ -647,6 +639,7 @@
 </body>
 
 </html> 
+
 
 
 
