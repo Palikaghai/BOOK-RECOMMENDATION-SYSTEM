@@ -1,19 +1,4 @@
-  search. Try different keywords.');
-                    } else {
-                        alert(`Search failed: ${error.message}. Please try again.`);
-                    }
-                }
-                
-                setLoading(false);
-            };
-
-            const handleSearch = async () => {
-                const query = searchQuery.trim();
-                if (!query) {
-                    alert('Please enter a search term');
-                    return;
-                }
-                
+ 
                 console.log('Search triggered:', query, searchType);
                 
                 try {
@@ -676,6 +661,7 @@
 </body>
 
 </html> 
+
 
 
 
