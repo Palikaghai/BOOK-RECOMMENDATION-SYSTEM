@@ -1,20 +1,5 @@
  
-             
-                
-           catch (error) {
-                    console.log('API failed, using mock data:', error);
-                    const mockBooks = generateMockBooks(query, searchType);
-                    setSearchResults(mockBooks);
-                    setApiBooks(mockBooks);
-                    setApiStatus('mock');
-                    setLoading(false);
-                }
-            };
-
-            // Auto-search on component mount
-            useEffect(() => {
-                setTimeout(() => {
-                    handleSearch();
+    
                 }, 1000);
             }, []);
 
@@ -627,6 +612,7 @@
 </body>
 
 </html> 
+
 
 
 
