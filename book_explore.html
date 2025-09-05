@@ -1,14 +1,4 @@
 
-            };
-
-            const handleFileUpload = (event) => {
-                const file = event.target.files[0];
-                if (file) {
-                    setUploadedFile(file);
-                    const recommendations = ['The Hobbit', 'Dune', 'The Catcher in the Rye', 'Pride and Prejudice', 'The Great Gatsby'];
-                    alert(`✨ File uploaded: ${file.name}\n🎯 Recommended similar books: ${recommendations.join(', ')}`);
-                }
-            };
 
             const exportToPDF = () => {
                 alert('Generating comprehensive PDF report with all analytics...');
@@ -577,6 +567,7 @@
 </body>
 
 </html> 
+
 
 
 
