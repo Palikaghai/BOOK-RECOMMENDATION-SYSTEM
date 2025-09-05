@@ -1,25 +1,4 @@
 
-                                    <div className="flex items-center space-x-2 text-sm">
-                                        <div className={`w-2 h-2 rounded-full ${
-                                            apiStatus === 'ready' ? 'bg-gray-400' :
-                                            apiStatus === 'loading' ? 'bg-yellow-400 animate-pulse' :
-                                            apiStatus === 'success' ? 'bg-green-400' :
-                                            apiStatus === 'error' ? 'bg-red-400' :
-                                            apiStatus === 'mock' ? 'bg-orange-400' : 'bg-gray-400'
-                                        }`}></div>
-                                        <span className={`text-xs ${
-                                            apiStatus === 'ready' ? 'text-gray-400' :
-                                            apiStatus === 'loading' ? 'text-yellow-600' :
-                                            apiStatus === 'success' ? 'text-green-600' :
-                                            apiStatus === 'error' ? 'text-red-600' :
-                                            apiStatus === 'mock' ? 'text-orange-600' : 'text-gray-400'
-                                        }`}>
-                                            {apiStatus === 'ready' ? 'Ready' :
-                                             apiStatus === 'loading' ? 'Loading...' :
-                                             apiStatus === 'success' ? 'API Connected' :
-                                             apiStatus === 'error' ? 'API Error' :
-                                             apiStatus === 'mock' ? 'Demo Mode' : 'Ready'}
-                                        </span>
                                     </div>
                                     <button
                                         onClick={() => setDarkMode(!darkMode)}
@@ -531,6 +510,7 @@
 </body>
 
 </html> 
+
 
 
 
