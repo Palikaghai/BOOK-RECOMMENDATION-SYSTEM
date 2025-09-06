@@ -4,18 +4,7 @@
                                         placeholder="Search books, authors, or topics..."
                                         value={searchQuery}
                                         onChange={(e) => setSearchQuery(e.target.value)}
-                                        className={`w-full pl-12 pr-4 py-4 rounded-2xl border-2 transition-all duration-300 focus:scale-105 ${
-                                            darkMode 
-                                                ? 'bg-gray-700/50 border-gray-600 text-white placeholder-gray-400 focus:border-purple-400' 
-                                                : 'bg-white/70 border-gray-200 focus:border-purple-400'
-                                        } focus:outline-none focus:ring-4 focus:ring-purple-400/20`}
-                                        onKeyDown={(e) => {
-                                            if (e.key === 'Enter') {
-                                                e.preventDefault();
-                                                handleSearch();
-                                            }
-                                        }}
-                                    />
+                                      
                                     {searchQuery && (
                                         <button
                                             onClick={() => setSearchQuery('')}
@@ -469,6 +458,7 @@
 </body>
 
 </html> 
+
 
 
 
