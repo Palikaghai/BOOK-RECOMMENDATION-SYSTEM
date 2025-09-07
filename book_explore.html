@@ -1,12 +1,5 @@
                                 
    
-                                        darkMode 
-                                            ? 'bg-gray-700/50 border-gray-600 text-white focus:border-purple-400' 
-                                            : 'bg-white/70 border-gray-200 focus:border-purple-400'
-                                    } focus:outline-none focus:ring-4 focus:ring-purple-400/20`}
-                                >
-                                    {genres.map(genre => (
-                                        <option key={genre} value={genre}>
                                             {genre === 'all' ? '🔍 All Genres' : `📚 ${genre.charAt(0).toUpperCase() + genre.slice(1)}`}
                                         </option>
                                     ))}
@@ -408,6 +401,7 @@
 </body>
 
 </html> 
+
 
 
 
