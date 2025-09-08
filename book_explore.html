@@ -1,13 +1,5 @@
 
-                                                <div className="flex space-x-4">
-                                                    {book.coverId && (
-                                                        <img
-                                                            src={getCoverUrl(book.coverId)}
-                                                            alt={book.title}
-                                                            className="w-16 h-20 object-cover rounded-lg shadow-md group-hover:shadow-lg transition-shadow duration-300"
-                                                            onError={(e) => e.target.style.display = 'none'}
-                                                        />
-                                                    )}
+                                            
                                                     <div className="flex-1 min-w-0">
                                                         <h3 className="font-bold text-lg truncate group-hover:text-purple-600 transition-colors duration-300">
                                                             {book.title}
@@ -314,6 +306,7 @@
 </body>
 
 </html> 
+
 
 
 
