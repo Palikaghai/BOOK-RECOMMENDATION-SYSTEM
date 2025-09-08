@@ -1,28 +1,5 @@
 
-                                                                </span>
-                                                            </div>
-                                                            <div className="flex items-center space-x-2">
-                                                                <div className="text-xs text-purple-600 font-medium">
-                                                                    {book.popularity}% popular
-                                                                </div>
-                                                                {book.searchType && (
-                                                                    <span className={`text-xs px-2 py-1 rounded-full ${
-                                                                        book.searchType === 'author' 
-                                                                            ? 'bg-pink-100 text-pink-600 dark:bg-pink-900/50 dark:text-pink-300'
-                                                                            : 'bg-blue-100 text-blue-600 dark:bg-blue-900/50 dark:text-blue-300'
-                                                                    }`}>
-                                                                        {book.searchType === 'author' ? '✍️ Author' : '📚 Book'}
-                                                                    </span>
-                                                                )}
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>
-
+  
                                 {/* Export Options */}
                                 <div className={`glassmorphism rounded-3xl shadow-2xl p-6`}>
                                     <h2 className="text-2xl font-bold mb-6 flex items-center">
@@ -269,3 +246,4 @@
                             <div className="text-center mt-6 pt-6 border-t border-gray-300 dark:border-gray-600">
                                 <p className="text-sm opacity-75">
                                     <span className="text-purple-600"> Made by Palika Ghai 💕</span>
+
