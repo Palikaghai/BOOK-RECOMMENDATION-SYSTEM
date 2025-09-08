@@ -1,13 +1,4 @@
 
-
-                                                key={index}
-                                                onClick={() => setSelectedBook(book)}
-                                                className={`group p-5 rounded-2xl cursor-pointer transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl ${
-                                                    selectedBook?.title === book.title
-                                                        ? 'bg-gradient-to-r from-purple-500/20 to-blue-500/20 border-2 border-purple-400'
-                                                        : darkMode ? 'bg-gray-700/50 hover:bg-gray-600/50' : 'bg-white/50 hover:bg-white/70'
-                                                }`}
-                                            >
                                                 <div className="flex space-x-4">
                                                     {book.coverId && (
                                                         <img
@@ -323,6 +314,7 @@
 </body>
 
 </html> 
+
 
 
 
