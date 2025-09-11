@@ -22,7 +22,7 @@ A sleek & client-side Book Recommendation System built with React,standard HTML/
 
 * Searching through Book Name
 example: Hints of Self Culture
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2c978c5-fe2f-4ebc-8a27-e945dfc14d2b" />
+
 
 --
 
