@@ -24,3 +24,10 @@ A sleek & client-side Book Recommendation System built with React,standard HTML/
 example: Hints of Self Culture
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2c978c5-fe2f-4ebc-8a27-e945dfc14d2b" />
 
+--
+
+* Searching through Author Name
+example: Arundhati Roy
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/72a753f6-e7ab-4c8e-a4b0-668751113174" />
+
+
