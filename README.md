@@ -6,19 +6,19 @@ A sleek & client-side Book Recommendation System built with React,standard HTML/
 
 
 # FEATURES IT PROVIDES
-- *Real-time Book Search**: Search by book titles or authors using Open Library API
-- *Advanced Analytics**: Interactive charts and data visualization
-- *Beautiful UI**: Modern glassmorphism design with dark/light mode
-- *AI-Powered Insights**: SHAP value analysis and book recommendations
-- *Responsive Design**: Works perfectly on desktop and mobile
-- *Auto-fallback**: Uses demo data if API is unavailable
+- ***Real-time Book Search***: Search by book titles or authors using Open Library API
+- ***Advanced Analytics***: Interactive charts and data visualization
+- ***Beautiful UI***: Modern glassmorphism design with dark/light mode
+- ***AI-Powered Insights***: SHAP value analysis and book recommendations
+- ***Responsive Design***: Works perfectly on desktop and mobile
+- ***Auto-fallback***: Uses demo data if API is unavailable
 
 # Analytics Features
-- **Demographics**: Reader age and gender distribution
-- **Regional Popularity**: Global reading patterns
-- **Reading Patterns**: Daily and seasonal trends
-- **Emotional Impact**: How books affect readers
-- **SHAP Values**: AI-powered prediction analysis
+- ***Demographics***: Reader age and gender distribution
+- ***Regional Popularity***: Global reading patterns
+- ***Reading Patterns***: Daily and seasonal trends
+- ***Emotional Impact***: How books affect readers
+- ***SHAP Values***: AI-powered prediction analysis
 
 # SNAPSHOTS
 
