@@ -13,7 +13,7 @@ A sleek & client-side Book Recommendation System built with React,standard HTML/
 - ***Responsive Design***: Works perfectly on desktop and mobile
 - ***Auto-fallback***: Uses demo data if API is unavailable
 
-# Analytics Features
+# ANALYTICAL FEATURES
 - ***Demographics***: Reader age and gender distribution
 - ***Regional Popularity***: Global reading patterns
 - ***Reading Patterns***: Daily and seasonal trends
