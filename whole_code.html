@@ -146,8 +146,8 @@
 
             const genres = ['all', 'fantasy', 'science fiction', 'romance', 'thriller', 'mystery', 'biography', 'history', 'poetry', 'drama'];
 
-           // Fetching data from API
-            const fetchFromOpenLibrary = async (query, searchType = 'book') => {
+           // Fetching data from API Through it 
+            const fetch = async (query, searchType = 'book') => {
                 console.log('Starting search:', query, searchType);
                 setLoading(true);
                 setApiStatus('loading');
@@ -231,17 +231,6 @@
                     setSearchResults([]);
                     setApiStatus('error');
                     
-                    if (error.message.includes('Failed to fetch')) {
-                        alert('Network error: Please check your internet connection and try again.');
-                    } else if (error.message.includes('429')) {
-                        alert('Too many requests. Please wait a moment and try again.');
-                    } else if (error.message.includes('No books found')) {
-                        alert('Unfortunately,No results found for your search.');
-                    } else {
-                        alert(`Search failed: ${error.message}`);
-                    }
-                }
-                
                 setLoading(false);
             };
 
@@ -946,6 +935,7 @@
 </body>
 
 </html>
+
 
 
 
