@@ -199,8 +199,7 @@
                 
                 try {
                     const url = searchType === 'author' 
-                        ? `https://openlibrary.org/search.json?author=${encodeURIComponent(query)}&limit=2000`
-                        : `https://openlibrary.org/search.json?q=${encodeURIComponent(query)}&limit=2000`;
+                        ? //ADD YOUR API KEY HERE :)
                     
                     console.log('Fetching from:', url);
                     
@@ -989,4 +988,5 @@
         ReactDOM.render(<BookSearchInterface />, document.getElementById('root'));
     </script>
 </body>
+
 </html>
