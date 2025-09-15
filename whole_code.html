@@ -244,7 +244,7 @@
                 console.log('Search triggered:', query, searchType);
                 
                 try {
-                    await fetchFromOpenLibrary(query, searchType);
+                    await fetch(query, searchType);
                 } catch (error) {
                     console.log('API failed, using mock data:', error);
                     const mockBooks = generateMockBooks(query, searchType);
@@ -262,7 +262,7 @@
                 }, 1000);
             }, []);
 
-            // Generate mock books data
+            // Generating mock books data
             const generateMockBooks = (query, searchType) => {
                 const mockTitles = [
                     'The Great Adventure', 'Mystery of the Night', 'Beyond the Horizon', 
@@ -301,7 +301,7 @@
                 const file = event.target.files[0];
                 if (file) {
                     setUploadedFile(file);
-                    const recommendations = ['The Hobbit', 'Dune', 'The Catcher in the Rye', 'Pride and Prejudice', 'The Great Gatsby'];
+                    const recommendations = 'API KEY' ;
                     alert(`File uploaded: ${file.name}\n ✨ Recommended similar books: ${recommendations.join(', ')}`);
                 }
             };
@@ -935,6 +935,7 @@
 </body>
 
 </html>
+
 
 
 
