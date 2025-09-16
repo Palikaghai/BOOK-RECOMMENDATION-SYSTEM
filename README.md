@@ -23,17 +23,17 @@ A sleek & client-side Book Recommendation System built with React,standard HTML/
 
 # SNAPSHOTS
 
-* Light Mode
+* ***Light Mode***
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9c2e5d46-c1d4-44c2-b742-f56dfa132c89" />
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-* Dark Mode
+* ***Dark Mode***
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4c57196d-37ec-4b1e-b6ae-c65a7c41d35d" />
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-* Searching through Book Name
+* ***Searching through Book Name***
 example: The Secrets
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d24572ba-7c2a-4649-bedc-eed0126a0184" />
 
