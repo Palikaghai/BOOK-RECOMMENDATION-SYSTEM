@@ -41,4 +41,18 @@ example: The Secrets
 example: Arundhati Roy
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/72a753f6-e7ab-4c8e-a4b0-668751113174" />
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+* ***Searching through Plot***
+example: Accidents
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8e377cb8-14a7-4930-856f-5a8d03dd2492" />
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+* ***Demographics & Charts***
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f7ca8023-e1e0-4d41-8286-592d4b0a2a7f" />
+
+
+
+
 
