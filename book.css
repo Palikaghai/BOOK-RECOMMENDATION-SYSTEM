@@ -1,0 +1,54 @@
+
+        .glassmorphism {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(13px);
+            border: 1px solid rgba(10, 9, 9, 0.2);
+        }
+        
+        .dark .glassmorphism {
+            background: rgb(255, 187, 187);
+            b
+            border: 1px solid rgba(144, 238, 144, 0.3);
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #ffffffb7 0%, #5bb7ecfa 100%);
+        }
+        
+        .dark .gradient-bg {
+            background: linear-gradient(135deg, #2d2c2c 0%, #2a2929 50%, #2b2a2a 100%);
+        }
+        
+        /* Dark mode text colors */
+        .dark {
+            color: #ffecec;
+        }
+        
+        .dark .text-light-green {
+            color: #74ff74;
+        }
+        
+        .dark .text-white {
+            color: #ffffff;
+        }
+        
+        .dark .bg-dark-card {
+            background-color: #201f1f;
+        }
+        
+        
+        .dark .opacity-75 {
+            color: rgba(255, 255, 255, 0.75);
+        }
+        
+        .animate-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }       
+        .animate-bounce {
+            animation: bounce 1s infinite;
+        }
+        
+        .scrollbar-thin {
+            scrollbar-width: thin;
+        }
+        
