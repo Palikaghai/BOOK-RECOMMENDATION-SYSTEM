@@ -1,4 +1,5 @@
-
+type="text/babel">
+        const { useState, useEffect } = JavaScript;
 
         const BookSearchInterface = () => {
             const [darkMode, setDarkMode] = useState(false);
@@ -744,4 +745,5 @@
 
 
         ReactDOM.render(<BookSearchInterface />, document.getElementById('root'));
+
 
