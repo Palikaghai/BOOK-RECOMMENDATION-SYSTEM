@@ -18,7 +18,7 @@ Users can search books, view details, and get recommendations based on query or 
 - ***Reading Patterns***: Daily and seasonal trends
 - ***Emotional Impact***: How books affect readers
 - ***SHAP Values***: AI-powered prediction analysis
-
+- ***Auto-fallback***: Uses demo data if API is unavailable
 
 # SNAPSHOTS
 
