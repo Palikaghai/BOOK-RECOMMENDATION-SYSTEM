@@ -10,7 +10,7 @@ Users can search books, view details, and get recommendations based on query or 
 - ***Beautiful UI***: Modern glassmorphism design with dark/light mode
 - ***AI-Powered Insights***: SHAP value analysis and book recommendations
 - ***Responsive Design***: Works perfectly on desktop and mobile
-- ***Auto-fallback***: Uses demo data if API is unavailable
+
 
 # ANALYTICAL FEATURES
 - ***Demographics***: Reader age and gender distribution
